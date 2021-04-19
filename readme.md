@@ -17,4 +17,8 @@ abrir o arquivo tsconfig.json e mudar o strict para false
 Instalar um Tradutor para o node
 yarn add ts-node-dev -D
 colocar o scripts no package.json
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts"
+  },
 
+yarn dev para inicializar o backend
