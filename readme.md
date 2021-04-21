@@ -57,3 +57,17 @@ temos que descomentar pois o typeOrm pede para habilitar no tsconfig
 Criando Rotas
 
 Depois de criar as rotas é criado uma controller
+
+---------------------Aula 03-----------------------------
+
+Criar migration da tabela de Usuários
+
+yarn typeorm migration:create -n CreateUsers
+
+yarn typeorm migration:run
+
+Criar migration da tabela Messages
+
+yarn typeorm migration:create -n CreateMessages
+
+yarn typeorm migration:run
