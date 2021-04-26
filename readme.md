@@ -71,3 +71,23 @@ Criar migration da tabela Messages
 yarn typeorm migration:create -n CreateMessages
 
 yarn typeorm migration:run
+
+
+
+----------------------aula 04--------------------------
+
+Utilizar o conceito de WebSocket através do modulo Socket.io
+
+yarn add socket.io
+
+lembrando sempre de instalar as tipagens do socket.io
+
+yarn add @types/socket.io -D
+
+instalar o modulo ejs para o front
+
+yarn add ejs
+
+Criação da tabela connections
+
+yarn typeorm migration:create -n CreateConnections
