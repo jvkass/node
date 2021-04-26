@@ -91,3 +91,13 @@ yarn add ejs
 Criação da tabela connections
 
 yarn typeorm migration:create -n CreateConnections
+
+----------------aula 05--------------------------------
+
+http://localhost:3333/pages/client
+
+http://localhost:3333/pages/admin
+
+ projeto 100% funcional 
+ 
+ 
